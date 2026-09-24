@@ -1,0 +1,391 @@
+{
+  "status": "FAIL",
+  "project_root": "<main-project-root>",
+  "main_tex": "paper/main.tex",
+  "clean_workdir": "<clean-paper-build>",
+  "pdf": {
+    "path": "<clean-paper-build>/main.pdf",
+    "sha256": "5a9a78b75fab2d6664cb7d6360ea4f472a639bf4bf06516ca703e44b0e3745ce",
+    "pages": 50,
+    "page_size": "486 x 720 pts",
+    "encrypted": "no",
+    "bytes": 712634
+  },
+  "checks": {
+    "build_success": true,
+    "page_count_exact_50": true,
+    "pdfinfo_success": true,
+    "pdftotext_success": true,
+    "qpdf_check_success_or_unavailable": true,
+    "not_encrypted": true,
+    "all_fonts_embedded": true,
+    "no_missing_source_refs": true,
+    "no_duplicate_labels": true,
+    "no_missing_bib_entries": false,
+    "all_bib_entries_cited": true,
+    "no_undefined_log_refs": true,
+    "no_undefined_log_citations": true,
+    "no_latex_errors": true,
+    "no_overfull_boxes": true,
+    "no_todo_fixme": true,
+    "no_double_question_mark": true,
+    "no_risky_acceptance_claim": false,
+    "no_false_full_mechanization_claim": true,
+    "no_unqualified_industrial_claim": true,
+    "abstract_reasonable_length": false,
+    "no_duplicate_long_paragraphs": true,
+    "all_pages_rendered": true,
+    "no_blank_pages": true,
+    "consistent_page_dimensions": true,
+    "no_content_at_physical_edge": true
+  },
+  "commands": [
+    {
+      "cmd": [
+        "sh",
+        "build.sh"
+      ],
+      "returncode": 0,
+      "output_tail": "/n/9 (+20) Correctness-preserving\n) (./sections/03-calculus.tex\nUnderfull \\vbox (badness 10000) has occurred while \\output is active\n[8.8]\n[9.9]\n(/usr/share/texlive/texmf-dist/tex/latex/libertine/OT1LinuxBiolinumT-TLF.fd)\n[10.10{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_edcawa.enc}\n{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}]\n[11.11]\nUnderfull \\hbox (badness 1997) in paragraph at lines 130--130\n[]|\\T1/LinuxLibertineT-TLF/m/n/9 (+20) Productive solver ac-tion matches a\n\nUnderfull \\hbox (badness 6047) in paragraph at lines 130--130\n[]|\\T1/LinuxLibertineT-TLF/m/n/9 (+20) Observation cap-tures the in-tended\n\n[12.12]\n[13.13]) (./sections/04-termination.tex\n[14.14]\n[15.15]) (./sections/05-confluence.tex\n[16.16] (./figures/commute-square.tex)\n[17.17]\n[18.18]\n[19.19]) (./sections/06-certificates.tex (./figures/certificate-pipeline.tex)\n(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)\n[20.20]\n[21.21{/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-4.enc}]\n[22.22]\nUnderfull \\vbox (badness 1062) has occurred while \\output is active\n[23.23]) (./sections/07-evaluation.tex\n[24.24]\n[25.25] (./figures/results-bars.tex)\n[26.26]\n[27.27]\n[28.28]) (./sections/08-boundaries-related.tex\n[29.29]\n[30.30]\n[31.31]) (./sections/09-conclusion.tex\n[32.32]) Processing 'acks' comment. Comment 'acks' writing to comment.cut.\nStraight input of comment.cut. (./comment.cut) (./main.bbl\n[33.33]\nUnderfull \\vbox (badness 6396) has occurred while \\output is active\n[34.34]) (./sections/A-proofs.tex\n[35.35]\n[36.36]\nUnderfull \\vbox (badness 4024) has occurred while \\output is active\n[37.37]) (./sections/B-certificates.tex\n[38.38]\n[39.39]\n[40.40]) (./sections/C-enumeration.tex\nUnderfull \\vbox (badness 3417) has occurred while \\output is active\n[41.41]\n[42.42]) (./sections/D-counterexamples.tex\nUnderfull \\vbox (badness 2173) has occurred while \\output is active\n[43.43]\n[44.44]) (./sections/E-negative-control.tex\nUnderfull \\vbox (badness 1577) has occurred while \\output is active\n[45.45]\n[46.46]) (./sections/F-reproduction.tex\n[47.47] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty)\n(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty)\n[48.48]\nUnderfull \\hbox (badness 10000) in paragraph at lines 83--83\n[]|\\T1/LinuxLibertineT-TLF/m/n/9 (+20) Theorem []4.3[]; ex-panded\n\nUnderfull \\hbox (badness 1259) in paragraph at lines 83--83\n[]|\\T1/LinuxLibertineT-TLF/m/n/9 (+20) One-slot propo-si-tion and\n\nUnderfull \\vbox (badness 1762) has occurred while \\output is active\n[49.49])\n(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def)\n(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-utf8.def) [50.50]\n(./main.aux) )\n(see the transcript file for additional information)</usr/share/texlive/texmf-d\nist/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb></usr/share/texlive/tex\nmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/share/texlive\n/texmf-dist/fonts/type1/public/newtx/LibertineMathMI.pfb></usr/share/texlive/te\nxmf-dist/fonts/type1/public/newtx/LibertineMathMI5.pfb></usr/share/texlive/texm\nf-dist/fonts/type1/public/newtx/LibertineMathMI7.pfb></usr/share/texlive/texmf-\ndist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/share/texlive/texmf-di\nst/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/share/texlive/texmf-dis\nt/fonts/type1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist\n/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/share/texlive/texmf-dist\n/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/share/texlive/texmf-dist\n/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type\n1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newt\nx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsym.pfb>\n</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>\nOutput written on main.pdf (50 pages, 712634 bytes).\nTranscript written on main.log.\n"
+    }
+  ],
+  "pdf_tools": {
+    "pdfinfo": {
+      "cmd": [
+        "pdfinfo",
+        "<clean-paper-build>/main.pdf"
+      ],
+      "returncode": 0,
+      "output": "Title:           Confluence Certificates for Bidirectional Staged Optimization\nSubject:         \nCreator:         LaTeX with acmart 2026/08/16 v2.20 Typesetting articles for the Association for Computing Machinery and hyperref 2024-11-05 v7.01l Hypertext links for LaTeX\nProducer:        pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) kpathsea version 6.4.0/dev\nCreationDate:    Mon Sep 21 20:11:40 2026 UTC\nModDate:         Mon Sep 21 20:11:40 2026 UTC\nCustom Metadata: yes\nMetadata Stream: yes\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           50\nEncrypted:       no\nPage size:       486 x 720 pts\nPage rot:        0\nFile size:       712634 bytes\nOptimized:       no\nPDF version:     1.7\n"
+    },
+    "pdffonts": {
+      "cmd": [
+        "pdffonts",
+        "<clean-paper-build>/main.pdf"
+      ],
+      "returncode": 0,
+      "output": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nGBFHWR+LinBiolinumTB                 Type 1            Custom           yes yes yes    536  0\nMTHNIV+LinBiolinumT                  Type 1            Custom           yes yes yes    537  0\nEXDRHT+LinLibertineT                 Type 1            Custom           yes yes yes    538  0\nPPIUUE+LinLibertineTI                Type 1            Custom           yes yes yes    556  0\nROTSHS+LibertineMathMI               Type 1            Builtin          yes yes yes    560  0\nLSGFVN+txsys                         Type 1            Builtin          yes yes yes    561  0\nEXDRHT+LinLibertineT                 Type 1            Custom           yes yes yes    562  0\nPPKSGE+txmiaX                        Type 1            Builtin          yes yes yes    571  0\nFDRKOQ+LibertineMathMI7              Type 1            Builtin          yes yes yes    572  0\nDRXTIF+LinLibertineTB                Type 1            Custom           yes yes yes    573  0\nQCLTUM+txsym                         Type 1            Builtin          yes yes yes    892  0\nIZGHFR+LibertineMathMI5              Type 1            Builtin          yes yes yes    893  0\nMTHNIV+LinBiolinumT                  Type 1            Custom           yes yes yes    900  0\nZMKHJD+NewTXMI                       Type 1            Builtin          yes yes yes    901  0\nEXDRHT+LinLibertineT                 Type 1            Custom           yes yes yes    903  0\nNLWXVS+txexs                         Type 1            Builtin          yes yes yes    972  0\nOJHIUU+Inconsolatazi4-Regular        Type 1            Custom           yes yes yes   1031  0\nQPKGOG+Inconsolatazi4-Bold           Type 1            Custom           yes yes yes   1415  0\n"
+    },
+    "qpdf": {
+      "cmd": [
+        "qpdf"
+      ],
+      "returncode": null,
+      "output": "not installed"
+    },
+    "render": {
+      "returncode": 0,
+      "output_tail": ""
+    }
+  },
+  "fonts": {
+    "count": 19,
+    "not_embedded": []
+  },
+  "cross_references": {
+    "labels": 53,
+    "refs": 66,
+    "missing": [],
+    "duplicate_labels": []
+  },
+  "bibliography": {
+    "entries": 49,
+    "unique_cited": 50,
+    "citation_occurrences": 124,
+    "missing": [
+      "acmauthoryear"
+    ],
+    "uncited": []
+  },
+  "writing": {
+    "abstract_words": 343,
+    "duplicate_long_paragraphs": 0,
+    "pattern_hits": {
+      "todo_fixme": 0,
+      "undefined_markers": 0,
+      "acceptance_claim": 2,
+      "full_mechanization_claim": 0,
+      "industrial_generalization": 0
+    },
+    "figures": 5,
+    "tables": 9,
+    "captions": 14
+  },
+  "log": {
+    "undefined_references": false,
+    "undefined_citations": false,
+    "overfull_boxes": 0,
+    "underfull_boxes": 112,
+    "latex_errors": 0
+  },
+  "raster": {
+    "pages": 50,
+    "blank_pages": [],
+    "sparse_pages": [],
+    "edge_touch_pages": [],
+    "dimensions": [
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ],
+      [
+        810,
+        1200
+      ]
+    ],
+    "ink_fractions": [
+      0.13247942386831277,
+      0.12216769547325103,
+      0.08720267489711934,
+      0.13037345679012347,
+      0.13239506172839507,
+      0.14079526748971194,
+      0.1428858024691358,
+      0.12708230452674898,
+      0.09376440329218107,
+      0.08933230452674897,
+      0.11315329218106995,
+      0.11126234567901234,
+      0.09646913580246913,
+      0.07860493827160493,
+      0.1054187242798354,
+      0.1098641975308642,
+      0.09392592592592593,
+      0.06417283950617284,
+      0.10766152263374486,
+      0.10622942386831276,
+      0.11432201646090535,
+      0.12558127572016461,
+      0.1097582304526749,
+      0.10403292181069959,
+      0.11824588477366255,
+      0.08211625514403292,
+      0.07863991769547325,
+      0.1283364197530864,
+      0.12990123456790123,
+      0.1301358024691358,
+      0.12516666666666668,
+      0.1235679012345679,
+      0.12728600823045266,
+      0.12443827160493827,
+      0.12221913580246914,
+      0.09931481481481481,
+      0.12088168724279835,
+      0.08833744855967078,
+      0.09362139917695474,
+      0.05246810699588477,
+      0.08864506172839506,
+      0.08027057613168724,
+      0.10509053497942387,
+      0.06882201646090536,
+      0.09703292181069958,
+      0.11370164609053499,
+      0.0999074074074074,
+      0.10088168724279835,
+      0.08939094650205762,
+      0.09074794238683127
+    ],
+    "unique_dimensions": [
+      [
+        810,
+        1200
+      ]
+    ]
+  },
+  "limitations": [
+    "Raster checks detect blank/sparse pages and physical-edge collisions, not every semantic layout defect.",
+    "Venue portal and human authorship declarations are external to the PDF."
+  ]
+}

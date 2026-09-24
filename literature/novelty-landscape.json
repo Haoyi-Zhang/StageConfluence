@@ -1,0 +1,22 @@
+{
+  "queries": [
+    "prophecy variables staged programming compiler optimization",
+    "history variables code motion compiler optimization",
+    "confluence schedule independence compiler optimization rewrites",
+    "confluence certificates term rewriting",
+    "certifying compilation translation validation optimization",
+    "bidirectional staged computation optimization"
+  ],
+  "works_screened": 0,
+  "priority_threshold": 5,
+  "priority_count": 0,
+  "priority_in_bibliography": 0,
+  "priority_missing_count": 0,
+  "priority_missing": [],
+  "priority": [],
+  "method_limitations": [
+    "OpenAlex search ranking and keyword scoring can miss papers or produce false positives.",
+    "Absence of a matching record is not a proof of novelty.",
+    "Final novelty claims remain deliberately narrow and qualified."
+  ]
+}

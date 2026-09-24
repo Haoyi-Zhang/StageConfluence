@@ -1,0 +1,4 @@
+claim_id,category,claim,evidence_file,evidence_locator,reproduction_command,scope_limitation
+R001,references,"All bibliography entries are metadata-verified, cited, and category-audited.",artifact/literature/reference-audit-final.json,status,python tools/check_bibliography.py; see artifact/literature/FINAL-REFERENCE-AUDIT.md,Metadata verification does not establish correctness of every interpretation in prose.
+P001,paper,"The final PDF passes clean-build, cross-reference, font, page, and raster gates.",artifact/audit/paper-quality-audit.json,status,rebuild paper in a clean source copy; run paper quality audit,Automated layout checks do not replace human reading.
+V001,venue,Venue-format checks were run against the available local template and accessible official policy pages.,artifact/audit/venue-compliance-audit.json,status,python venue_audit.py,Portal-only fields and current editorial judgment require human verification.
