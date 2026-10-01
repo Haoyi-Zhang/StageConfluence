@@ -94,16 +94,3 @@ The mutation campaign is finite and selected. Rejecting all mutants is evidence 
 The artifact does not implement BuildIt or Nexis, does not claim correspondence to an unrestricted source language, and does not report optimization speedups. General theorems are handwritten rather than proof-assistant checked. No external solver, model API, private data, live service or GPU is used.
 
 Original code and generated examples are covered by `LICENSE`. Scholarly papers and the ACM template remain under their own terms and are cited or accompanied by their supplied notice; no paper PDFs or font files are redistributed.
-
-## Reviewer-hardening validation
-
-The release includes two checks that are deliberately separate from the named exhaustive families:
-
-```bash
-python -m case_study.run_case_study --out /tmp/residual-case-study
-python -m reviewer_hardening.heldout_campaign --repo . --out /tmp/heldout-validation \
-  --variants-per-case 12 --heldout-attempts 120
-```
-
-The first is an executable residual-expression micro-study with a defective two-orientation rewrite and three repairs. The second performs black-box serialization/isomorphism metamorphisms and grammar-aware held-out mutations under different hash seeds, then replays available certificates or counterexample witnesses. These checks target implementation and literal-corpus overfitting. They are not production-compiler performance benchmarks and do not make a statistical representativeness claim.
-

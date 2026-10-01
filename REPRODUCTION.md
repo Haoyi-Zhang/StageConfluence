@@ -17,7 +17,7 @@ The full driver is single-worker and starts at most one child process at a time.
 python -m unittest discover -s tests -v
 ```
 
-Expected: 0 tests, zero failures and zero errors.
+Expected: 74 tests, zero failures and zero errors.
 
 ## Named staged evidence
 
@@ -69,7 +69,7 @@ unique terminal program       235741
 program-only                   28672
 mutations rejected             72 / 72
 separate field comparisons   4065624 / 4065624
-unit tests                     0/0
+unit tests                     74 / 74
 legacy one-slot instances     2560900
 legacy formula mismatches      0
 Boolean expression pairs       3136

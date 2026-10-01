@@ -72,9 +72,4 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    # clean-input-errors-v1: reject malformed external inputs without a Python traceback.
-    try:
-        raise SystemExit(main())
-    except (ValueError, KeyError, TypeError, json.JSONDecodeError) as exc:
-        print(f"input error: {exc}", file=sys.stderr)
-        raise SystemExit(2)
+    raise SystemExit(main())
