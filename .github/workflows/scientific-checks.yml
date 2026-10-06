@@ -14,7 +14,6 @@ jobs:
       PYTHONDONTWRITEBYTECODE: '1'
       PYTHONHASHSEED: '0'
       MIN_EXPECTED_PYTHON_SOURCES: '20'
-      SCIENTIFIC_OUTPUT: ${{ runner.temp }}/p051-scientific
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
@@ -26,6 +25,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          export SCIENTIFIC_OUTPUT="$RUNNER_TEMP/p051-scientific"
           mkdir -p "$SCIENTIFIC_OUTPUT"
           ulimit -v 3145728
           ulimit -t 600
