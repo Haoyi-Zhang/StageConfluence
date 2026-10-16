@@ -139,6 +139,14 @@ The default resource-limited path requires POSIX. The explicit portable path
 does not. `scientific-checks.yml` prepares a full Linux plan and comparison,
 retaining raw output on failure; preparation is not evidence of a remote run.
 
+## Manuscript figures
+
+The optional Matplotlib scripts in `figures/` produce four semantic schematics
+and the retained-count bar chart as self-contained embedded-font vector PDFs.
+See `figures/README.md` for commands and input provenance. The companion paper
+build invokes these same scripts; scientific reproduction has no plotting
+dependency.
+
 ## Repository map
 
 - `src/staged_model.py`: validated finite staged-system representation and parser.

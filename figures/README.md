@@ -1,4 +1,14 @@
-# Aggregate-count figure reproduction
+# Manuscript figure reproduction
+
+Four semantic schematics are generated directly by Matplotlib:
+
+```sh
+python -B figures/draw_schematics.py --outdir scratch/figures
+```
+
+Their arrows describe declared rewrite, closure, evidence, and implication
+relations, not measured execution traces. The companion manuscript build
+regenerates these four PDFs and the count chart below, including every label.
 
 `results-bars.csv` contains the five counts shown in the manuscript, in the
 original category order, among 451,736 staged systems. The properties overlap;
